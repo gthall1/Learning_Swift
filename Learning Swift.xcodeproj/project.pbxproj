@@ -36,6 +36,7 @@
 		8B212ADC1A1D4238004AFB3B /* Learning SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B212AE11A1D4238004AFB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B212AE21A1D4238004AFB3B /* Learning_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftTests.swift; sourceTree = "<group>"; };
+		8B212AEE1A1D4799004AFB3B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		8B212ABE1A1D4238004AFB3B = {
 			isa = PBXGroup;
 			children = (
+				8B212AEE1A1D4799004AFB3B /* MyPlayground.playground */,
 				8B212AC91A1D4238004AFB3B /* Learning Swift */,
 				8B212ADF1A1D4238004AFB3B /* Learning SwiftTests */,
 				8B212AC81A1D4238004AFB3B /* Products */,
