@@ -59,6 +59,56 @@ var thirdNumber = number * secondNumber
 
 var quiz = "My name is \(name) and \(number) * \(secondNumber) is \(thirdNumber)"
 
+var ages = [59, 56, 27, 24, 19, 16]
+
+var myAge = ages[2]
+
+var myFamily = ["Mom": "Lisa", "Dad": "Rex", "First Brother": "Griff", "Second Brother": "Bailey", "Third Brother": "Parker", "Fourth Brother": "Carson"]
+
+var myYoungestBrother = myFamily["Fourth Brother"]
+
+ages.append(9)
+
+println(ages)
+
+myFamily["Fifth Son"] = "Stoney"
+
+myFamily
+
+ages.removeAtIndex(5)
+
+println(ages)
+
+
+myFamily["Fifth Son"] = nil
+
+println(myFamily)
+
+var numberOfPeopleInMyFamily = ages.count
+
+var someIntegersRepresentingAge = [Int]()
+
+var someNames = [String]()
+
+var myDictionary = Dictionary<String, String>()
+
+myDictionary["Huge"] = "really fucking big"
+
+println(myDictionary)
+
+var favoriteColors = ["Mom": "Blue", "Dad": "Pink", "Bailey": "Green"]
+
+println("There are \(favoriteColors.count) people in my family and my favorite color is " + favoriteColors["Mom"]!)
+
+
+
+
+
+
+
+
+
+
 
 
 
