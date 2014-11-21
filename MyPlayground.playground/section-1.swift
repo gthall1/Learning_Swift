@@ -101,8 +101,16 @@ var favoriteColors = ["Mom": "Blue", "Dad": "Pink", "Bailey": "Green"]
 println("There are \(favoriteColors.count) people in my family and my favorite color is " + favoriteColors["Mom"]!)
 
 
+// if statements
 
+var num = 3
 
+if (num != 2) {
+    
+    println("The statement is true")
+} else {
+    println("The statement is false")
+}
 
 
 
