@@ -114,6 +114,8 @@ if (num != 2) {
 
 
 
+var randomNumber = arc4random() % 6
+  
 
 
 
