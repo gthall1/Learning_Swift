@@ -101,7 +101,7 @@ var favoriteColors = ["Mom": "Blue", "Dad": "Pink", "Bailey": "Green"]
 println("There are \(favoriteColors.count) people in my family and my favorite color is " + favoriteColors["Mom"]!)
 
 
-// if statements
+// incrementing numbers
 
 var num = 3
 
@@ -131,8 +131,37 @@ incrementingNumber++
 ++incrementingNumber
 
 
+// for loops
 
 
+for var i = 10; i > 3; --i {
+    println(i)
+}
+
+
+var testScores = [99, 88, 92, 95, 94]
+
+for (value) in enumerate(testScores) {
+    println(value)
+}
+
+for (index, value) in enumerate(testScores) {
+    println(value)
+}
+
+for (index, value) in enumerate(testScores) {
+    println("Index: \(index), Value: \(value)")
+}
+
+
+
+var familyAges = ["Dad": 58, "Mom": 55, "Bailey": 23, "Parker": 19, "Carson": 16]
+
+for (index, value) in (familyAges) {
+    familyAges[index] = value + 1
+}
+
+println(familyAges)
 
 
 
