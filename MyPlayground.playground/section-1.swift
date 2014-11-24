@@ -164,6 +164,41 @@ for (index, value) in (familyAges) {
 println(familyAges)
 
 
+// while loops
+
+var x = 3
+
+while x < 9 {
+    println(x++)
+}
+
+var f = 3
+
+while f < 9 {
+    f++
+    println(f)
+}
+
+
+var z = 5
+
+while z < 50 {
+    z = z+5
+    println(z)
+}
+
+var thisArray = [3, 7, 13, 16, 23]
+
+var j = 0
+
+var max = thisArray.count
+
+while j < max {
+    println(thisArray[j])
+    
+    j++
+}
+
 
 
 
