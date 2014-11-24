@@ -115,8 +115,20 @@ if (num != 2) {
 
 
 var randomNumber = arc4random() % 6
-  
 
+
+// for loops
+
+
+var incrementingNumber = 3
+
+incrementingNumber = incrementingNumber + 1
+
+incrementingNumber++
+
+incrementingNumber++
+
+++incrementingNumber
 
 
 
